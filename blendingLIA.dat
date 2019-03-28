@@ -1,0 +1,24 @@
+set NM := N1 N2 N3;
+set SM := S1 S2;
+
+param cost := 
+N1 300
+N2 190
+N3 250
+S1 200
+S2 230;
+
+param iron :=
+N1 6
+N2 1.9
+N3 8.5
+S1 5
+S2 3.5;
+
+param minIron := 2;
+param maxIron := 7;
+param maxNM := 500000;
+param maxSM := 300000;
+param UnitProfit := 350;
+
+

@@ -1,0 +1,80 @@
+Problem:    problem_mix
+Rows:       20
+Columns:    16 (6 integer, 6 binary)
+Non-zeros:  86
+Status:     INTEGER OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 grad_obj[P1,R1]
+                                1000          1000             = 
+     2 grad_obj[P1,R2]
+                                1000          1000             = 
+     3 grad_obj[P2,R1]
+                                1500          1500             = 
+     4 grad_obj[P2,R2]
+                                1500          1500             = 
+     5 grad_obj[P3,R1]
+                                2200          2200             = 
+     6 grad_obj[P3,R2]
+                                2200          2200             = 
+     7 grad_obj[P4,R1]
+                                2000          2000             = 
+     8 grad_obj[P4,R2]
+                                2000          2000             = 
+     9 complementarity1_01[P1]
+                                 -10           -10               
+    10 complementarity1_01[P2]
+                              999946           -20               
+    11 complementarity1_01[P3]
+                              999542           -30               
+    12 complementarity1_01[P4]
+                              999881           -30               
+    13 complementarity1_02[P1]
+                             303.529                       1e+06 
+    14 complementarity1_02[P2]
+                               1e+06                       1e+06 
+    15 complementarity1_02[P3]
+                               1e+06                       1e+06 
+    16 complementarity1_02[P4]
+                               1e+06                       1e+06 
+    17 complementarity2_01[R1]
+                         1.00064e+06          4800               
+    18 complementarity2_01[R2]
+                         1.00064e+06          4800               
+    19 complementarity2_02[R1]
+                               1e+06                       1e+06 
+    20 complementarity2_02[R2]
+                               1e+06                       1e+06 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 q[P1]                      10            10               
+     2 q[P2]                 54.1176            20               
+     3 q[P3]                 458.235            30               
+     4 q[P4]                 119.412            30               
+     5 lambda[P1]            303.529             0               
+     6 lambda[P2]                  0             0               
+     7 lambda[P3]                  0             0               
+     8 lambda[P4]                  0             0               
+     9 delta[P1]    *              0             0             1 
+    10 delta[P2]    *              1             0             1 
+    11 delta[P3]    *              1             0             1 
+    12 delta[P4]    *              1             0             1 
+    13 lambdab[R1]                 0             0               
+    14 lambdab[R2]                 0             0               
+    15 deltab[R1]   *              1             0             1 
+    16 deltab[R2]   *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 4.55e-13 on row 5
+        max.rel.err = 2.07e-16 on row 5
+        High quality
+
+End of output

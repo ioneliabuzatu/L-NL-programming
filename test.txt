@@ -1,0 +1,60 @@
+Problem:    dietLIA
+Rows:       12
+Columns:    6
+Non-zeros:  68
+Status:     OPTIMAL
+Objective:  COST = 0.6643685175 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 COST         B       0.664369                             
+     2 requirments[calories]
+                    NL          2500          2500          2800   0.000277068 
+     3 requirments[protein]
+                    B        79.0079            60            80 
+     4 requirments[calcium]
+                    B        811.352           800          2000 
+     5 requirments[vitamin]
+                    NL           500           500          2000    0.00013337 
+     6 PERCENT[bread]
+                    B        1.56638            -0               
+     7 PERCENT[meat]
+                    NL             0            -0                    0.643755 
+     8 PERCENT[potatoes]
+                    B       0.661158            -0               
+     9 PERCENT[cabbage]
+                    B       0.412464            -0               
+    10 PERCENT[milk]
+                    NL             0            -0                   0.0958029 
+    11 PERCENT[gelatin]
+                    NL             0            -0                   0.0495008 
+    12 THIRD        NS             3             3             =    -0.0316625 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 q[bread]     B        1.62638             0               
+     2 q[meat]      B           0.06             0               
+     3 q[potatoes]  B       0.721158             0               
+     4 q[cabbage]   B       0.472464             0               
+     5 q[milk]      B           0.06             0               
+     6 q[gelatin]   B           0.06             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 5.55e-17 on row 9
+        max.rel.err = 4.97e-17 on row 11
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.22e-16 on column 2
+        max.rel.err = 1.33e-16 on column 4
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

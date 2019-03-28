@@ -1,0 +1,44 @@
+Problem:    blendingLIA
+Rows:       5
+Columns:    5
+Non-zeros:  20
+Status:     OPTIMAL
+Objective:  gain = 125000000 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 gain         B       1.25e+08                             
+     2 natiral_limim
+                    NU        500000                      500000           160 
+     3 syntetic_limit
+                    NU        300000                      300000           150 
+     4 minimumIron  B        -850000                          -0 
+     5 maximumIron  B       3.15e+06            -0               
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 q[N1]        NL             0             0                        -110 
+     2 q[N2]        B         500000             0               
+     3 q[N3]        NL             0             0                         -60 
+     4 q[S1]        B         300000             0               
+     5 q[S2]        NL             0             0                         -30 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.86e-09 on row 2
+        max.rel.err = 1.86e-15 on row 2
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 9.09e-13 on column 4
+        max.rel.err = 3.02e-15 on column 4
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

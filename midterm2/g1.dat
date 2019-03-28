@@ -1,0 +1,29 @@
+set B := P1 P2 P3;
+set P := P4 P5;
+set MAC := A B C;
+
+param a : P1 P2 P3 P4 P5 :=
+A 100 150 120 300 280
+B 180 160 110 300 290
+C 130 150 120 290 430;
+
+param minutes_av :=
+A 3500
+B 4200
+C 4300;
+
+param : u profit penalty F2 :=
+P1 6000 3 130 2000
+P2 6000 16 500 2000
+P3 6000 10 450 1000
+P4 4000 60 1000 3000
+P5 4000 65 1400 2000;
+
+param min_basic := 10000;
+
+param min_premium := 3000;
+
+
+param bigM := 1000000000; 
+
+

@@ -1,0 +1,70 @@
+Problem:    productmix_test2
+Rows:       20
+Columns:    16 (11 integer, 11 binary)
+Non-zeros:  71
+Status:     INTEGER OPTIMAL
+Objective:  utility = 586743.0233 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 utility                586743                             
+     2 machine[A]            3382.09                        3500 
+     3 machine[B]            3443.95                        4200 
+     4 machine[C]               4300                        4300 
+     5 min_basic               10000         10000               
+     6 min_premium           7186.05          3000               
+     7 activation[P1]
+                                   0                          -0 
+     8 activation[P2]
+                              -95000                          -0 
+     9 activation[P3]
+                              -95000                          -0 
+    10 activation[P4]
+                              -99000                          -0 
+    11 activation[P5]
+                              -93814                          -0 
+    12 activation2[P1]
+                                   0                        6000 
+    13 activation2[P2]
+                                5000                        6000 
+    14 activation2[P3]
+                                5000                        6000 
+    15 activation2[P4]
+                                1000                        4000 
+    16 activation2[P5]
+                              -93814                        4000 
+    17 cons1_1               95703.5            -0               
+    18 cons1_2                 99186            -0               
+    19 cons2_1                101000                      101000 
+    20 cons2_2                -95000        -95000               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 q[P1]                       0             0               
+     2 q[P2]                    5000             0               
+     3 q[P3]                    5000             0               
+     4 q[P4]                    1000             0               
+     5 q[P5]                 6186.05             0               
+     6 delta[P1]    *              0             0             1 
+     7 delta[P2]    *              1             0             1 
+     8 delta[P3]    *              1             0             1 
+     9 delta[P4]    *              1             0             1 
+    10 delta[P5]    *              1             0             1 
+    11 gamma        *              1             0             1 
+    12 delta2[P1]   *              0             0             1 
+    13 delta2[P2]   *              0             0             1 
+    14 delta2[P3]   *              0             0             1 
+    15 delta2[P4]   *              0             0             1 
+    16 delta2[P5]   *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

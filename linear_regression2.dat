@@ -1,0 +1,11 @@
+param m := 1;
+
+param a: 1 2 3 :=
+1 0 1 1;
+
+param: b :=
+1 1;
+
+param M := 1000;
+
+end;

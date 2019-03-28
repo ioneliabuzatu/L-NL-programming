@@ -1,0 +1,28 @@
+set Operator := O1 O2;
+set Product := P1 P2;
+set Machine := M1 M2;
+
+param UnitProfit := 
+P1 10
+P2 15;
+
+param a:=
+[*,*,O1]:M1 M2 :=
+P1 4 2
+P2 2 5
+[*,*,O2]: M1 M2 :=
+P1 5 5
+P2 3 6;
+
+param hoursLimit : O1 O2 :=
+M1 80 60
+M2 60 75;
+
+param materialLimit := 
+O1 75
+O2 45;
+
+param cost := 4;
+
+end;
+

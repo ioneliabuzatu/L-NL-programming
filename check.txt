@@ -1,0 +1,49 @@
+Problem:    operator10
+Rows:       7
+Columns:    4
+Non-zeros:  16
+Status:     OPTIMAL
+Objective:  profit = 393.75 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 profit       B         393.75                             
+     2 material_limit[O1]
+                    NU            75                          75       1.66667 
+     3 material_limit[O2]
+                    NU            45                          45          3.75 
+     4 hours_limit[M1,O1]
+                    B             60                          80 
+     5 hours_limit[M1,O2]
+                    B          33.75                          60 
+     6 hours_limit[M2,O1]
+                    NU            60                          60       1.66667 
+     7 hours_limit[M2,O2]
+                    B           67.5                          75 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 q[P1,O1]     B          11.25             0               
+     2 q[P2,O1]     B            7.5             0               
+     3 q[P1,O2]     NL             0             0                          -5 
+     4 q[P2,O2]     B          11.25             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,25 @@
+set MAT := M1 M2 M3 M4 M5;
+set MAC := A B C;
+
+param: Cost PercCop PercMin :=
+M1 22 4 0.2
+M2 23 0 0
+M3 21 4 0
+M4 22 0 0
+M5 19 4 0;
+
+param Weight := 85;
+
+param Cons: M1 M2 M3 M4 M5 :=
+A 200 150 120 100 200
+B 180 160 110 100 220
+C 230 150 120 90 230;
+
+param: Budget :=
+A 11000
+B 12200
+C 14000;
+
+param ReqCop := 2.5;
+
+end;

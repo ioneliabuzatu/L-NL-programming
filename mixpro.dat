@@ -1,0 +1,19 @@
+set P := P1 P2 P3;
+set R := R1 R2 R3;
+
+param: p l u minimum maximum :=
+P1 1000 0 100 0.40 1
+P2 1500 0 100 0 1
+P3 2200 0 100 0 0.20;
+
+param b := 
+R1 480
+R2 480
+R3 300;
+
+param a: R1 R2 R3 :=
+P1 20 31 16
+P2 30 42 81
+P3 62 51 10;
+
+

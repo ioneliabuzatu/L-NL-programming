@@ -1,0 +1,42 @@
+Problem:    mixpro
+Rows:       4
+Columns:    3
+Non-zeros:  12
+Status:     OPTIMAL
+Objective:  profit = 18949.4707 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 profit       B        18949.5                             
+     2 hourse_limit[R1]
+                    NU           480                         480       19.8952 
+     3 hourse_limit[R2]
+                    NU           480                         480        18.662 
+     4 hourse_limit[R3]
+                    NU           300                         300       1.47332 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 q[P1]        B        2.96628             0           100 
+     2 q[P2]        B        2.42497             0           100 
+     3 q[P3]        B         5.6117             0           100 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 5.68e-14 on row 2
+        max.rel.err = 5.92e-17 on row 2
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.27e-13 on column 2
+        max.rel.err = 7.58e-17 on column 2
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

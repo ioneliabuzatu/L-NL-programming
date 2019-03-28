@@ -1,0 +1,53 @@
+Problem:    groupalternative
+Rows:       6
+Columns:    15
+Non-zeros:  54
+Status:     OPTIMAL
+Objective:  COST = 1615 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 COST         B           1615                             
+     2 minutes[A]   B        4826.09                       11000 
+     3 minutes[B]   B              0                       12200 
+     4 minutes[C]   NU         14000                       14000         < eps
+     5 totalweight  NS            85            85             =            19 
+     6 COPPER       B            3.4         2.125               
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 q[A,M1]      NL             0             0                           3 
+     2 q[A,M2]      NL             0             0                           4 
+     3 q[A,M3]      NL             0             0                           2 
+     4 q[A,M4]      NL             0             0                           3 
+     5 q[A,M5]      B        24.1304             0               
+     6 q[B,M1]      NL             0             0                           3 
+     7 q[B,M2]      NL             0             0                           4 
+     8 q[B,M3]      NL             0             0                           2 
+     9 q[B,M4]      NL             0             0                           3 
+    10 q[B,M5]      NL             0             0                       < eps
+    11 q[C,M1]      NL             0             0                           3 
+    12 q[C,M2]      NL             0             0                           4 
+    13 q[C,M3]      NL             0             0                           2 
+    14 q[C,M4]      NL             0             0                           3 
+    15 q[C,M5]      B        60.8696             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.82e-12 on row 4
+        max.rel.err = 6.50e-17 on row 4
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 3.55e-15 on column 5
+        max.rel.err = 9.11e-17 on column 5
+        High quality
+
+KKT.DB: max.abs.err = 3.55e-15 on column 10
+        max.rel.err = 3.55e-15 on column 10
+        High quality
+
+End of output

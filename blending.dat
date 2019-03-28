@@ -1,0 +1,32 @@
+set I := I1 I2 I3 I4;
+set Q := Q1 Q2 Q3;
+set Qgrad := Q4;
+
+param r : Q4 :=
+I1 0.08
+I2 0.28
+I3 0.33
+I4 0.05;
+
+param: c l u :=
+I1 2 0 6
+I2 3 0 10
+I3 4 0 6
+I4 19 0 5;
+
+param : gradmin gradmax :=
+Q4 0.05 0.10;
+
+
+param a: Q1 Q2 Q3:=
+I1 110 4 2 
+I2 160 8 285 
+I3 180 13 54 
+I4 260 14 80;
+
+param: d b :=
+Q1 2000 4000
+Q2 50 100
+Q3 700 1000;
+
+end;

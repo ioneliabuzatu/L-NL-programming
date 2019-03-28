@@ -1,0 +1,44 @@
+Problem:    blending
+Rows:       6
+Columns:    4
+Non-zeros:  23
+Status:     OPTIMAL
+Objective:  cost = 94.34671533 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 cost         B        94.3467                             
+     2 quality[Q1]  NL          2000          2000          4000      0.065146 
+     3 quality[Q2]  B        95.0511            50           100 
+     4 quality[Q3]  B        846.799           700          1000 
+     5 gradation_min[Q4]
+                    B      -0.592153                          -0 
+     6 gradation_max[Q4]
+                    NU             0                          -0      -41.2409 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 q[I1]        NU             6             0             6      -5.99088 
+     2 q[I2]        B        1.79197             0            10 
+     3 q[I3]        NL             0             0             6       1.75912 
+     4 q[I4]        B        4.05109             0             5 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.27e-13 on row 2
+        max.rel.err = 6.75e-17 on row 6
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 3.55e-15 on column 2
+        max.rel.err = 1.63e-16 on column 2
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

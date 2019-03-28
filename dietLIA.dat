@@ -1,0 +1,37 @@
+set food := 
+bread
+meat
+potatoes
+cabbage
+milk
+gelatin;
+
+set nutrition :=
+calories
+protein
+calcium
+vitamin;
+
+param a : bread meat potatoes cabbage milk gelatin :=
+calories 1254 1457 318 46 309 1725
+protein 39 73 8 4 16 43
+calcium 418 41 42 141 536 0
+vitamin 0 0 70 860 720 0;
+
+param : min max :=
+calories 2500 2800
+protein 60 80
+calcium 800 2000
+vitamin 500 2000;
+
+param percent := 0.02;
+param third := 3;
+
+param cost :=
+bread 0.30
+meat 1
+potatoes 0.05
+cabbage 0.08
+milk 0.23
+gelatin 0.48;
+
